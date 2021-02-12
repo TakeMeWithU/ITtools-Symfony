@@ -1,0 +1,33 @@
+symfony:
+  title: Les outils d'informatique
+  home: Accueil
+  joinus: Rejoignez nous sur
+  hello: Bonjour
+user:
+  signup: S'inscrire
+  login: Se connecter
+  logout: Déconnexion
+  psi: Veuillez vous connecter
+  registration: Inscription
+  existingAcc: Se connecter à un compte existant.
+  profile: Profil
+  account: Votre compte
+  edit: Modifier
+  valid: Valider
+  editAvatar: Changer votre photo de profil
+  is:
+    email: Email
+    password: Mot de passe
+    repeatPassword: Répéter votre mot de passe
+    firstname: Nom
+    name: Prénom
+    birthday: Date de naissance
+    mobile: Portable
+    mobileExemple: 'Format: 00 00 00 00 00'
+    oldPassword: Ancien mot de passe
+    avatar: Photo de profil
+  sucRegis: 'Inscription réussie!'
+  sucEdit: 'Modification réussie!'
+  changePass: "Modifier votre mot de passe. Cliquer d'ici."
+  errorPass: "Votre ancien mot de passe n'a pas été correctement saisi."
+  blankField: "Laissez le champ en blanc si vous ne souhaitez pas modifier votre mot de passe."

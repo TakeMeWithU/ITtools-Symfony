@@ -1,0 +1,30 @@
+{% extends 'base.html.twig' %}
+
+{% block title %} {{ 'user.signup'|trans }}{% endblock %}
+
+{% block body %}
+<main>
+    <div class="layout layout-40">
+        <a style="color: blue" href="{{ path('app_login') }}">{{ 'user.existingAcc'|trans }}</a>
+        {{ form_start(form) }}
+        <h1 class="h3 mb-3 font-weight-normal">{{ 'user.registration'|trans}}</h1>
+        {{ form_label(form.email) }}
+        {{ form_widget(form.email) }}
+        <div class="error">{{ form_errors(form.email) }}</div>
+
+        {{ form_label(form.password.first) }}
+        {{ form_widget(form.password.first) }}
+        {{ form_label(form.password.second) }}
+        {{ form_widget(form.password.second) }}
+        {{ form_rest(form) }}
+
+        <div class="error">{{ form_errors(form.password.first) }}{{ form_errors(form.password.second) }}</div>
+
+        <button class="submitBtn" type="submit">{{ 'user.signup'|trans }}</button>
+        {{ form_end(form) }}
+
+
+    </div>
+
+</main>
+{% endblock %}

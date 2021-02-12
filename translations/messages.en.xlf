@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file source-language="en" target-language="en" datatype="plaintext" original="file.ext">
+    <header>
+      <tool tool-id="symfony" tool-name="Symfony"/>
+    </header>
+    <body>
+      <trans-unit id="STVrr2C" resname="symfony.title">
+        <source>symfony.title</source>
+        <target>An IT professionals toolbox</target>
+      </trans-unit>
+      <trans-unit id="pTNaZlZ" resname="symfony.home">
+        <source>symfony.home</source>
+        <target>Home</target>
+      </trans-unit>
+      <trans-unit id="eE.IORp" resname="symfony.joinus">
+        <source>symfony.joinus</source>
+        <target>Join us on</target>
+      </trans-unit>
+      <trans-unit id="yIrrrgL" resname="user.signup">
+        <source>user.signup</source>
+        <target>Sign Up</target>
+      </trans-unit>
+      <trans-unit id="rruB2OR" resname="user.login">
+        <source>user.login</source>
+        <target>Login</target>
+      </trans-unit>
+      <trans-unit id="okzpfQC" resname="user.logout">
+        <source>user.logout</source>
+        <target>Logout</target>
+      </trans-unit>
+      <trans-unit id="0hlqc2U" resname="user.psi">
+        <source>user.psi</source>
+        <target>Please sign in</target>
+      </trans-unit>
+      <trans-unit id="lqi6rcG" resname="user.is.email">
+        <source>user.is.email</source>
+        <target>Email</target>
+      </trans-unit>
+      <trans-unit id="gnD987n" resname="user.is.password">
+        <source>user.is.password</source>
+        <target>Password</target>
+      </trans-unit>
+      <trans-unit id="mA34mlt" resname="user.is.firstname">
+        <source>user.is.firstname</source>
+        <target>Firstname</target>
+      </trans-unit>
+      <trans-unit id="ueZ96tK" resname="user.is.name">
+        <source>user.is.name</source>
+        <target>Name</target>
+      </trans-unit>
+      <trans-unit id="vBz_J_k" resname="user.is.birthday">
+        <source>user.is.birthday</source>
+        <target>Birthday</target>
+      </trans-unit>
+      <trans-unit id="g5XmI5T" resname="user.is.mobile">
+        <source>user.is.mobile</source>
+        <target>Mobile</target>
+      </trans-unit>
+      <trans-unit id="DbpX89V" resname="user.signin">
+        <source>user.signin</source>
+        <target>Sign in</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,33 @@
+symfony:
+  title: An IT professionals toolbox
+  home: Home
+  joinus: Join us on
+  hello: Hello
+
+user:
+  signup: Sign Up
+  login: Login
+  logout: Logout
+  psi: Please sign in
+  registration: Registration
+  existingAcc: Connect to an existing account.
+  profile: Profile
+  account: Your Account
+  edit: Edit
+  valid: Validate
+  editAvatar: Change your avatar
+  is:
+    email: Email
+    password: Password
+    repeatPassword: Repeat your password
+    firstname: Firstname
+    name: Name
+    birthday: Birthday
+    mobile: Mobile
+    oldPassword: Old password
+    avatar: Avatar
+  sucRegis: 'Successful registration!'
+  sucEdit: 'Successful editing!'
+  changePass: 'Change your password. Click here!'
+  errorPass: "Your old password has not been entered correctly."
+  blankField: "Leave the password field blank if you don't want to configure your password."

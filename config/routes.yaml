@@ -1,0 +1,6 @@
+index:
+  path: /
+  controller: Symfony\Bundle\FrameworkBundle\Controller\RedirectController
+  defaults:
+    path: /en
+    controller: App\Controller\DefaultController::index

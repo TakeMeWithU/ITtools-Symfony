@@ -1,0 +1,258 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+    width: 100%;
+    background-color: #f0f5f5 ;
+}
+
+/*******************
+
+        HEADER
+
+********************/
+header{
+    width: 100%;
+    background-color: #f0f5f5;
+    text-align: center;
+}
+
+.logo, .topnav{
+    display: inline-block;
+    vertical-align: center;
+
+}
+
+.logo{
+    width: 20%;
+}
+
+.topnav{
+    width: 100%;
+    overflow: hidden;
+    background-color: aquamarine;
+}
+
+.topnav a{
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.daddy{
+    display: inline-block;
+}
+
+.daddy .daddyBtn {
+    font-size: 17px;
+    border: none;
+    outline: none;
+    color: black;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+.child{
+    display: none;
+    position: absolute;
+    background-color: #ddd;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.child a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.topnav a:hover, .daddy:hover .daddyBtn {
+    background-color: green;
+    color: white;
+}
+
+.child a:hover {
+    background-color: #17E8FF;
+    color: black;
+}
+
+.daddy:hover .child {
+    display: block;
+}
+
+.left{
+    float: left;
+}
+
+.right{
+    float: right;
+}
+
+.active {
+    background-color: #17E8FF;
+    color: white;
+}
+
+/*********************************
+            MAIN
+***********************************/
+
+main{
+    width: 100%;
+    min-height: 700px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.layout{
+    display: inline-block;
+    margin: 5px;
+    vertical-align: middle;
+}
+
+.layout-60{
+    width: 60%;
+}
+
+.layout-40{
+    width: 40%;
+}
+
+.layout-30{
+    width: 30%;
+}
+
+.layout-20{
+    width: 20%;
+}
+
+.displayInline {
+    display: inline-block;
+}
+/*****************************
+
+        FORM COMMON
+
+******************************/
+
+form {
+    width: 100%;
+    margin: 0 auto;
+}
+form h1 {
+    width: 100%;
+}
+label, input{
+    display: inline-block;
+    horiz-align: left;
+}
+
+label{
+    width: 30%;
+    font-weight: bold;
+    font-size: 15px;
+    text-align: left;
+}
+input{
+    width: 60%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+select{
+    width: 30%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.submitBtn{
+    background-image: linear-gradient(to right, #0ba360, #3cba92, #30dd8a, #2bb673);
+    box-shadow: 0 4px 15px 0 rgba(23, 168, 108, 0.75);
+    width: auto;
+    padding: 0 30px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+    margin: 20px auto;
+    height: 55px;
+    display: block;
+    text-align:center;
+    border: none;
+    background-size: 300% 100%;
+
+    border-radius: 50px;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+button:hover, .submitBtn:hover {
+    background-position: 100% 0;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+button:hover, .submitBtn:focus {
+    outline: none;
+}
+
+.error{
+    width: 100%;
+}
+.error ul{
+    list-style: none;
+}
+/******************************
+
+        USER PAGE
+
+*******************************/
+
+.avatarUser{
+    width: 300px;
+    height: auto;
+
+}
+
+/*****************************
+			FOOTER
+******************************/
+
+
+footer{
+    width: 100%;
+    background-color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+footer i{
+    margin-right: 2px;
+}

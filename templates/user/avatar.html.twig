@@ -1,0 +1,16 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}{{ 'symfony.title'|trans }}{% endblock %}
+
+{% block body %}
+    <main>
+        <div class="layout layout-60">
+            <img src="{{ asset('images/avatars/'~app.user.avatar) }}">
+            {{ form_start(form) }}
+
+            {{ form_widget(form) }}
+            <button class="submitBtn" type="submit">{{ 'user.editAvatar'|trans }}</button>
+            {{ form_end(form) }}
+        </div>
+    </main>
+{% endblock %}

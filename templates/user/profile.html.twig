@@ -1,0 +1,22 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}{{ 'symfony.hello'|trans }} {{ app.user.firstname }}{% endblock %}
+
+{% block body %}
+    <main>
+        <div class="layout layout-40">
+            <h3>{{ 'user.is.avatar'|trans }}</h3>
+            <img class="avatarUser" src="{{ asset('images/avatars/'~app.user.avatar) }}">
+            <br><a style="color:blue;" href="{{ path('app_profile_avatar') }}">{{ 'user.editAvatar'|trans }}</a>
+        </div>
+        <div class="layout layout-40">
+
+            {{ form_start(editForm) }}
+            <h1> {{ 'user.profile'|trans }}</h1>
+            {{ form_widget(editForm) }}
+
+            <button class="submitBtn" type="submit">{{ 'user.edit'|trans }}</button>
+            {{ form_end(editForm) }}
+        </div>
+    </main>
+{% endblock %}
